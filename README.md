@@ -1,5 +1,5 @@
 # AiPlus Agent Velocity
-[![CI](https://github.com/izhiwen/aiplus-agent-velocity/actions/workflows/ci.yml/badge.svg)](https://github.com/izhiwen/aiplus-agent-velocity/actions/workflows/ci.yml)
+[![CI](https://github.com/izhiwen/AiPlus-Agent-Velocity/actions/workflows/ci.yml/badge.svg)](https://github.com/izhiwen/AiPlus-Agent-Velocity/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 [中文 README](README.zh-CN.md)
@@ -50,6 +50,7 @@ If you already have AiPlus installed:
 
 ```bash
 cd MyProject
+aiplus add agent-velocity     # add module (no-op if already bundled)
 aiplus install codex          # or: claude-code, opencode, all
 aiplus velocity init
 ```
@@ -105,9 +106,9 @@ AiPlus Agent Velocity does not:
 
 ## More
 
-- Main platform: [aiplus](https://github.com/izhiwen/aiplus)
+- Main platform: [AiPlus](https://github.com/izhiwen/AiPlus)
 - Tracked work before next release:
-  [v0.5.2 known gaps](https://github.com/izhiwen/aiplus/blob/main/docs/roadmap/v0.5.2-known-gaps.md)
+  [v0.5.2 known gaps](https://github.com/izhiwen/AiPlus/blob/main/docs/roadmap/v0.5.2-known-gaps.md)
 
 ## License
 

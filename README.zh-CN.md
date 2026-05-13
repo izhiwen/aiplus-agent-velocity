@@ -1,5 +1,5 @@
 # AiPlus Agent Velocity
-[![CI](https://github.com/izhiwen/aiplus-agent-velocity/actions/workflows/ci.yml/badge.svg)](https://github.com/izhiwen/aiplus-agent-velocity/actions/workflows/ci.yml)
+[![CI](https://github.com/izhiwen/AiPlus-Agent-Velocity/actions/workflows/ci.yml/badge.svg)](https://github.com/izhiwen/AiPlus-Agent-Velocity/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 [English README](README.md)
@@ -38,6 +38,7 @@ AiPlus Agent Velocity 把每次估时和每次实际完成时间都记成本地 
 
 ```bash
 cd MyProject
+aiplus add agent-velocity     # 加模块
 aiplus install codex          # 或：claude-code, opencode, all
 aiplus velocity init
 ```
@@ -91,9 +92,9 @@ AiPlus Agent Velocity **不会**：
 
 ## 更多
 
-- 主平台：[aiplus](https://github.com/izhiwen/aiplus)
+- 主平台：[AiPlus](https://github.com/izhiwen/AiPlus)
 - 下次发布前要跟进的事：
-  [v0.5.2 known gaps](https://github.com/izhiwen/aiplus/blob/main/docs/roadmap/v0.5.2-known-gaps.md)
+  [v0.5.2 known gaps](https://github.com/izhiwen/AiPlus/blob/main/docs/roadmap/v0.5.2-known-gaps.md)
 
 ## License
 
